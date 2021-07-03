@@ -15,3 +15,7 @@ To make colorful terminal
 ## npm i validator
 
 Checking your statment is valid or not (also use chalk to make colorful output)
+
+## npm i nodemon
+
+run server only once then automaticaly give you output(not again and again terminal run file)
