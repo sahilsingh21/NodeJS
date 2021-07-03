@@ -1,22 +1,20 @@
 const fs = require("fs");
-// //creating new file if file is not present
-// fs.writeFileSync("read.txt", "welecome to the channel");
+// // creating folder
+// //fs.mkdirSync("./Singh");
 
-// //rewrite the file 
-// fs.writeFileSync("read.txt", "Singh is King");
+// //creating file in the folder and write
+// fs.writeFileSync("./Singh/sahil.txt","Hello ji");
 
-// fs.appendFileSync("read.txt", "How are you");
+// //append some data in existing file
+// fs.appendFileSync("./Singh/sahil.txt"," Kya haal chall");
 
+// //store data in data name variabe and printe it
+// const data = fs.readFileSync("./Singh/sahil.txt", "utf-8");
 
+// console.log(data);
 
-// const buf_data = fs.readFileSync("read.txt");
+// //rename file name
+// fs.renameSync("./Singh/sahil.txt", "./Singh/mysahil.txt",);
 
-// //console.log(buf_data);
-
-// org_data = buf_data.toString();
-
-// console.log(org_data);
-
-
-// rename your file name
-// fs.renameSync("read.txt","readWrite.txt");
+// //deleting file 
+// fs.unlinkSync("./Singh/mysahil.txt");
