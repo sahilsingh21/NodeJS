@@ -19,4 +19,4 @@ const fs = require("fs");
 
 
 // rename your file name
-fs.renameSync("read.txt","readWrite.txt");
+// fs.renameSync("read.txt","readWrite.txt");
